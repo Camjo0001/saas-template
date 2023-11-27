@@ -4,7 +4,7 @@ export default function Hero() {
     return (
         <div className=' flex items-center justify-between max-w-7xl mx-auto'>
             <div className='max-w-xl flex flex-col items-start gap-y-6'>
-                <h1 className='text-6xl font-bold'>A <span className='italic'>free</span> Saas template that can help you <span className='italic'>revolutinize</span> your landing page.</h1>
+                <h1 className='text-6xl font-bold'>A <span className='italic'>free</span> Saas template that can help you <span className='italic'>revolutionize</span> your landing page.</h1>
                 <p className='text-lg'>Easily customizable, fully functional landing page template, built for your company to adopt and customize, free of charge.</p>
                 <div className="flex sm:gap-8 gap-4 sm:flex-row flex-col">
                     <div className="flex">
