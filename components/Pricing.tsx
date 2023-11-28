@@ -56,7 +56,7 @@ export default function Pricing() {
                    
                     
                 </ul>
-                <button className="btn btn-primary w-full">Start Using This Template</button>
+                <a href='https://camjo.dev/' target='_blank' className="btn btn-primary w-full">Start Using This Template</a>
 
             </div>
 

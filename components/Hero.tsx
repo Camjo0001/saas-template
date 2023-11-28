@@ -26,7 +26,7 @@ export default function Hero() {
                         <p className="text-sm text-base-content/70">+10 Indie Hackers</p></div>
 
                 </div>
-                <button className="btn btn-primary w-full md:btn-wide">Start Using This Template</button>
+                <a href='https://camjo.dev/' target='_blank' className="btn btn-primary w-full md:btn-wide">Start Using This Template</a>
             </div>
             <div className='hidden lg:flex'>
                 <Image src={'/hero.png'} alt='hero' width={600} height={600} />

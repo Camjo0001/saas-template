@@ -39,7 +39,7 @@ export default function Navbar() {
                         <a className="link link-hover px-4">About</a>
                     </div>
                     <div className='w-48'>
-                        <button className="w-full btn btn-primary">Get Access Today</button>
+                        <a href='https://camjo.dev/' target='_blank' className="w-full btn btn-primary">Get Access Today</a>
 
                     </div>
                 </div>

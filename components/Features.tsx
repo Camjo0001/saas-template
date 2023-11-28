@@ -26,7 +26,7 @@ export default function Features() {
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24px" height="24px"><path className='fill-primary/25' d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z" /><path className='fill-primary' d="M34.586,14.586l-13.57,13.586l-5.602-5.586l-2.828,2.828l8.434,8.414l16.395-16.414L34.586,14.586z" /></svg>Mobile-responsive design for optimal viewing on any device.</li>
 
                     </ul>
-                    <button className="btn btn-primary btn-wide">Start Using This Template</button>
+                    <a href='https://camjo.dev/' target='_blank' className="btn btn-primary btn-wide">Start Using This Template</a>
                 </div>
 
 
@@ -46,7 +46,7 @@ export default function Features() {
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24px" height="24px"><path className='fill-primary/25' d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z" /><path className='fill-primary' d="M34.586,14.586l-13.57,13.586l-5.602-5.586l-2.828,2.828l8.434,8.414l16.395-16.414L34.586,14.586z" /></svg>Consistent and cohesive visual styling across all components.</li>
 
                     </ul>
-                    <button className="btn btn-primary btn-wide">Start Using This Template</button>
+                    <a href='https://camjo.dev/' target='_blank' className="btn btn-primary btn-wide">Start Using This Template</a>
                 </div>
                 
                 <div className='order-5 md:order-6  flex justify-start items-center max-w-xl '>
@@ -68,7 +68,7 @@ export default function Features() {
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24px" height="24px"><path className='fill-primary/25' d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z" /><path className='fill-primary' d="M34.586,14.586l-13.57,13.586l-5.602-5.586l-2.828,2.828l8.434,8.414l16.395-16.414L34.586,14.586z" /></svg>Scalable architecture suitable for projects of any size.</li>
 
                     </ul>
-                    <button className="btn btn-primary btn-wide">Start Using This Template</button>
+                    <a href='https://camjo.dev/' target='_blank' className="btn btn-primary btn-wide">Start Using This Template</a>
                 </div>
                 
             </div>
