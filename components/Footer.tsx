@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Footer() {
     return (
-        <footer className="footer p-10 flex max-w-7xl justify-between items-center">
+        <footer className="footer p-4 sm:px-6 md:p-10 flex max-w-7xl justify-between items-end md:items-center">
             <aside>
                 <Image alt='pfp' loading='lazy' width={48} height={48} className='rounded-full ' src={'/pfp.jpg'} />
                 <p className='font-medium'>camjo.dev<br />Make Your Landing Page <span className='italic'>Stand Out</span></p>

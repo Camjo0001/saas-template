@@ -30,7 +30,7 @@ export default function Testmonials() {
     ];
 
     const renderTestimonial = (testimonial: Testimonial, key: number) => (
-        <div key={key} className="z-10 my-12 bg-gray-100 mx-12 w-96 rounded-xl shadow-xl flex gap-y-4 flex-col items-start p-4">
+        <div key={key} className="z-10 my-12 bg-gray-100 mx-4 md:mx-12 w-96 rounded-xl shadow-xl flex gap-y-4 flex-col items-start p-4">
             <p className='font-medium text-lg'>{testimonial.text}</p>
             <div className='flex gap-x-2'>
                 <Image alt='pfp' loading='lazy' width={48} height={48} className='rounded-full' src={testimonial.imageUrl} />

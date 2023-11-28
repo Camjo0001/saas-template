@@ -2,15 +2,18 @@ import React from 'react'
 import Image from 'next/image'
 export default function Features() {
     return (
-        <div className='max-w-7xl mx-auto w-full'>
+        <div className='max-w-7xl mx-auto w-full px-4 py-6'>
             <div className='text-center max-w-5xl mx-auto flex flex-col gap-y-4 items-center'>
                 <div className="badge badge-primary bg-primary/25 badge-outline p-[10px]">Fully-Modular Code</div>
                 <h2 className='text-5xl font-bold'>Effortless Customization with Next.js & Tailwind CSS</h2>
                 {/* <p className='text-lg'>Unleash Creative Freedom with DaisyUI Integration – Design and Build with the Best in Modern Web Technologies</p> */}
             </div>
 
-            <div className='grid grid-cols-2 gap-x-12 gap-y-12 my-12 mx-auto max-w-6xl pl-12'>
-                <div className='flex flex-col  w-full max-w-xl justify-center items-start'>
+            <div className='grid md:grid-cols-2 gap-x-12 gap-y-12 my-12 mx-auto max-w-6xl place-items-center lg:pl-12'>
+                <div className='order-1 md:order-2 flex justify-start items-center max-w-xl '>
+                    <Image src={'/feature1.png'} className='rounded-xl shadow-xl' alt='feature' width={500} height={500} />
+                </div>
+                <div className='order-2 md:order-1 flex flex-col  w-full max-w-xl justify-center items-start'>
                     <div className="badge badge-primary bg-primary/25 badge-outline p-[10px]">User-Friendly Interface</div>
                     <h3 className='text-2xl font-semibold my-4'>Intuitive Layout Design</h3>
                     <p className='text-md'>Craft stunning pages with ease using our intuitive layout design. Tailored for versatility, this template ensures that every element is placed with purpose, ensuring a seamless user experience.</p>
@@ -25,14 +28,12 @@ export default function Features() {
                     </ul>
                     <button className="btn btn-primary btn-wide">Start Using This Template</button>
                 </div>
-                <div className='flex justify-start items-center max-w-xl '>
-                    <Image src={'/feature1.png'} className='rounded-xl shadow-xl' alt='feature' width={500} height={500} />
-                </div>
 
-                <div className='flex justify-start items-center max-w-xl '>
+
+                <div className='order-3 flex justify-start items-center max-w-xl '>
                     <Image src={'/feature2.png'} className='rounded-xl shadow-xl' alt='feature' width={500} height={500} />
                 </div>
-                <div className='flex flex-col justify-center items-start max-w-xl '>
+                <div className='order-4 flex flex-col justify-center items-start max-w-xl '>
                     <div className="badge badge-primary bg-primary/25 badge-outline p-[10px]">Brand Alignment Made Simple</div>
                     <h3 className='text-2xl font-semibold my-4'>Dynamic Theming with DaisyUI</h3>
                     <p className='text-md'>Embrace the power of dynamic theming. With DaisyUI integrated, switch themes effortlessly to match your brand identity. Customize colors, fonts, and more with just a few clicks.</p>
@@ -47,8 +48,11 @@ export default function Features() {
                     </ul>
                     <button className="btn btn-primary btn-wide">Start Using This Template</button>
                 </div>
-
-                <div className='flex flex-col justify-center items-start max-w-xl '>
+                
+                <div className='order-5 md:order-6  flex justify-start items-center max-w-xl '>
+                    <Image src={'/feature3.png'} className='rounded-xl shadow-xl' alt='feature' width={500} height={500} />
+                </div>
+                <div className='order-6 md:order-5 flex flex-col justify-center items-start max-w-xl '>
                     <div className="badge badge-primary bg-primary/25 badge-outline p-[10px]">Performance & Growth Optimized</div>
                     <h3 className='text-2xl font-semibold my-4'>Seamless Integration & Scalability</h3>
                     <p className='text-md'>Grow your project without limits. Our template, built on Next.js, ensures smooth integration with various APIs and server-side rendering capabilities for enhanced performance and scalability.</p>
@@ -66,9 +70,7 @@ export default function Features() {
                     </ul>
                     <button className="btn btn-primary btn-wide">Start Using This Template</button>
                 </div>
-                <div className='flex justify-start items-center max-w-xl '>
-                    <Image src={'/feature3.png'} className='rounded-xl shadow-xl' alt='feature' width={500} height={500} />
-                </div>
+                
             </div>
 
 
