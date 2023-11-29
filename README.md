@@ -1,40 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Tailwind Saas Template
+
+## Introduction
+Welcome to the Next.js Tailwind Saas Template! This project is designed to be easy to set up, customize, and deploy. Follow these instructions to get started.
 
 ## Getting Started
 
-First, run the development server:
+### Cloning and Installing
+1. **Clone the Repository**
+   ```BASH
+   git clone https://github.com/Camjo0001/saas-template
+   cd [Your Project Directory]
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Install Dependencies**
+   ```BASH
+   npm install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Customizing Layout
+To add or remove component imports:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. Navigate to the `index` file in the root directory.
+2. Add or remove component imports as needed:
+   ```JAVASCRIPT
+   import YourComponent from './components/YourComponent';
+   ```
+3. Use these components in your layout.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Customizing DaisyUI Theme
+DaisyUI themes can be customized in the `tailwind.config.ts` file:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Open `tailwind.config.ts`.
+2. Locate the `daisyui` section and modify the theme as needed:
+   ```JAVASCRIPT
+   daisyui: {
+     themes: ["light", "dark", "cupcake", ...],
+   },
+   ```
+3. Save changes and the theme will update accordingly.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Deploying via Vercel
+To deploy your project with Vercel:
 
-## Learn More
+1. Push your code to GitHub.
+2. Sign up or log in to [Vercel](https://vercel.com).
+3. Choose "New Project" and select your GitHub repository.
+4. Follow the setup instructions and deploy your site.
 
-To learn more about Next.js, take a look at the following resources:
+## Support
+For support, please open an issue in this repository.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Good luck with your project! For any further customization or issues, feel free to raise an issue or submit a pull request.
