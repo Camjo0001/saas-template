@@ -27,7 +27,7 @@ export default function Navbar() {
         <>
             {isScrolled && <div style={{ height: navbarHeight }}></div>} {/* Placeholder */}
 
-            <div className={`z-20 duration-300 px-4 w-full ${isScrolled ? 'fixed py-4 bg-white/80 backdrop-blur-md border-b border-neutral' : 'py-6'}`}>
+            <div className={`z-20 duration-300 px-4 w-full ${isScrolled ? 'fixed py-4 bg-base-100/80 backdrop-blur-md border-b border-neutral' : 'py-6'}`}>
                 <div className='max-w-7xl mx-auto flex items-center justify-between'>
 
 

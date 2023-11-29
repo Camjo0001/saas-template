@@ -20,7 +20,7 @@ const config: Config = {
       {
         mytheme: {
 
-          "primary": "#0048ff",
+          "primary": "#ff0000",
 
           "secondary": "#0082ff",
 
@@ -39,6 +39,7 @@ const config: Config = {
           "error": "#e10031",
         },
       },
+      "cupcake"
     ],
   },
   plugins: [require("daisyui")],
