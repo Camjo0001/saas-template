@@ -9,7 +9,7 @@ Welcome to the Next.js Tailwind Saas Template! This project is designed to be ea
 1. **Clone the Repository**
    ```BASH
    git clone https://github.com/Camjo0001/saas-template
-   cd [Your Project Directory]
+   cd saas-template
    ```
 
 2. **Install Dependencies**
